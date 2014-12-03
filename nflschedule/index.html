@@ -4,6 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bill's Road Record</title>
+    <link rel="stylesheet" type="text/css" href="/nflschedule/Content/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="/nflschedule/Content/site.css"/>
     <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="/nflschedule/Scripts/angular.min.js"></script>
     <script type="text/javascript" src="/nflschedule/Scripts/underscore.min.js"></script>
@@ -11,12 +13,12 @@
     <script type="text/javascript" src="/nflschedule/Scripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="/nflschedule/Angular/App.js"></script>
     <script type="text/javascript" src="/nflschedule/Angular/Controllers/ScheduleController.js"></script>
-    <script type="text/javascript" src="../Angular/Directives/GameDetails.js"></script>
-    <script type="text/javascript" src="../Angular/Directives/GameEnter.js"></script>
-    <script type="text/javascript" src="../Angular/Directives/MapDirective.js"></script>
-    <script type="text/javascript" src="../Angular/Directives/SeasonEnter.js"></script>
-    <script type="text/javascript" src="../Angular/Directives/status.js"></script>
-    <script type="text/javascript" src="../Angular/Services/RecordService.js"></script>
+    <script type="text/javascript" src="/nflschedule/Angular/Directives/GameDetails.js"></script>
+    <script type="text/javascript" src="/nflschedule/Angular/Directives/GameEnter.js"></script>
+    <script type="text/javascript" src="/nflschedule/Angular/Directives/MapDirective.js"></script>
+    <script type="text/javascript" src="/nflschedule/Angular/Directives/SeasonEnter.js"></script>
+    <script type="text/javascript" src="/nflschedule/Angular/Directives/status.js"></script>
+    <script type="text/javascript" src="/nflschedule/Angular/Services/RecordService.js"></script>
 </head>
 <body ng-app="scheduleApp">
     <div ng-controller="scheduleController">
@@ -51,12 +53,12 @@
                 <div class="gameDetail-small">
                     <p>{{game.Date}}</p>
                     <div>
-                        <img class="score-small-logo" src="/Content/logos/buff.png" />
+                        <img class="score-small-logo" src="/nflschedule/Content/logos/buff.png" />
                         @*<p>Buffalo Bills</p>*@
                     </div>
                     <div class="score-small">{{game.TmScore}} - {{game.OppScore}} </div>
                     <div>
-                        <img class="score-small-logo" ng-src="/Content/logos/{{game.ABRV}}.png" />
+                        <img class="score-small-logo" ng-src="/nflschedule/Content/logos/{{game.ABRV}}.png" />
                         @*<p>{{game.Opp}}</p>*@
                     </div>
                 </div>
