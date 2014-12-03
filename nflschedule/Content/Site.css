@@ -1,0 +1,84 @@
+﻿body {
+    font-family: 'Anton';
+}
+.title {
+    font-family: 'Anton';
+    margin-left: 10px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+h2 {
+    font-family: 'Anton';
+}
+
+.gameDetail>div{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+.gameDetail-small>div {
+    display: inline-block;
+    text-align: center;
+    padding: 2px;
+}
+
+.gameDetail-small {
+    border-bottom: 1px solid black;
+    
+}
+
+.season {
+    display: inline-block;
+    width: 100px;
+    margin-left: 10px;
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+.score {
+    font-size: 8em;
+    padding: 25px;
+}
+
+.score-small {
+    font-size: 2em;
+    padding: 5px;
+}
+
+.score-small-logo {
+    width: 50px;
+    margin-bottom: 18px;
+}
+
+.score-logo {
+    width: 96px;
+    height: 72px;
+}
+
+.selected {
+    background:#D4D2D2;
+}
+
+.win {
+    color: #43AC6A;
+}
+
+.lose {
+    color: #e34448;
+}
+
+.win-line {
+    stroke: #43AC6A;
+}
+
+.loss-line {
+    stroke: #e34448;
+}
+
+.season-col {
+    overflow-x: auto;
+    max-height: 800px;
+}
+

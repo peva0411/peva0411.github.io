@@ -1,0 +1,82 @@
+Year,Week,Day,Date,Status,OT,Rec,Away,Opp,TmScore,OppScore,Tm1stD,TmTotYd,TmPassY,TmRushY,TmTO,Opp1stD,OppTotYd,OppPassY,OppRushY,OppTO,ABRV
+2012,1,Sun,September 9,L,,0-1,@,New York Jets,28,48,20,390,195,195,4,21,384,266,118,1,nyj
+2012,3,Sun,September 23,W,,2-1,@,Cleveland Browns,24,14,19,344,206,138,1,17,240,207,33,2,cle
+2012,5,Sun,October 7,L,,2-3,@,San Francisco 49ers,3,45,10,204,115,89,2,29,621,310,311,1,sf
+2012,6,Sun,October 14,W,OT,3-3,@,Arizona Cardinals,19,16,19,306,141,165,2,20,332,150,182,2,ari
+2012,9,Sun,November 4,L,,3-5,@,Houston Texans,9,21,17,304,230,74,1,21,374,256,118,,hou
+2012,10,Sun,November 11,L,,3-6,@,New England Patriots,31,37,35,481,319,162,3,27,347,230,117,,ne
+2012,12,Sun,November 25,L,,4-7,@,Indianapolis Colts,13,20,16,304,169,135,1,22,312,225,87,2,ind
+2012,16,Sun,December 23,L,,5-10,@,Miami Dolphins,10,24,17,381,227,154,4,18,301,119,182,,mia
+2013,3,Sun,September 22,L,,1-2,@,New York Jets,20,27,18,328,208,120,,20,513,331,182,2,nyj
+2013,5,Thu,October 3,L,,2-3,@,Cleveland Browns,24,37,20,343,188,155,1,19,290,199,91,,cle
+2013,7,Sun,October 20,W,,3-4,@,Miami Dolphins,23,21,15,268,178,90,1,19,293,173,120,3,mia
+2013,8,Sun,October 27,L,,3-5,@,New Orleans Saints,17,35,20,299,211,88,3,21,386,309,77,,no
+2013,10,Sun,November 10,L,,3-7,@,Pittsburgh Steelers,10,23,16,227,132,95,1,19,300,164,136,1,pit
+2013,14,Sun,December 8,L,,4-9,@,Tampa Bay Buccaneers,6,27,14,214,147,67,5,13,246,81,165,2,tb
+2013,15,Sun,December 15,W,,5-9,@,Jacksonville Jaguars,27,20,25,366,168,198,2,22,354,195,159,4,jac
+2013,17,Sun,December 29,L,,6-10,@,New England Patriots,20,34,19,393,224,169,,24,382,115,267,1,ne
+2011,1,Sun,September 11,W,,1-0,@,Kansas City Chiefs,41,7,23,364,201,163,1,13,213,105,108,3,kc
+2011,4,Sun,October 2,L,,3-1,@,Cincinnati Bengals,20,23,12,273,190,83,,25,458,287,171,2,cin
+2011,6,Sun,October 16,L,,4-2,@,New York Giants,24,27,17,374,219,155,2,24,414,292,122,,nyg
+2011,10,Sun,November 13,L,,5-4,@,Dallas Cowboys,7,44,20,271,136,135,4,24,433,270,163,,dal
+2011,11,Sun,November 20,L,,5-5,@,Miami Dolphins,8,35,14,245,204,41,2,16,242,147,95,,mia
+2011,12,Sun,November 27,L,,5-6,@,New York Jets,24,28,21,336,250,86,,20,318,180,138,2,nyj
+2011,14,Sun,December 11,L,,5-8,@,San Diego Chargers,10,37,17,281,185,96,3,23,366,216,150,1,sd
+2011,17,Sun,January 1,L,,6-10,@,New England Patriots,21,49,26,402,296,106,4,28,480,342,138,1,ne
+2010,2,Sun,September 19,L,,0-2,@,Green Bay Packers,7,34,14,186,62,124,2,18,346,255,91,,gb
+2010,3,Sun,September 26,L,,0-3,@,New England Patriots,30,38,19,374,240,134,2,25,445,245,200,1,ne
+2010,7,Sun,October 24,L,OT,0-6,@,Baltimore Ravens,34,37,27,514,382,132,4,21,364,229,135,2,bal
+2010,8,Sun,October 31,L,OT,0-7,@,Kansas City Chiefs,10,13,23,328,191,137,1,24,414,140,274,,kc
+2010,11,Sun,November 21,W,,2-8,@,Cincinnati Bengals,49,31,23,449,308,141,2,26,361,228,133,3,cin
+2010,13,Sun,December 5,L,,2-10,@,Minnesota Vikings,14,38,10,239,155,84,5,22,387,177,210,4,min
+2010,15,Sun,December 19,W,,4-10,@,Miami Dolphins,17,14,15,282,211,71,1,22,326,261,65,2,mia
+2010,17,Sun,January 2,L,,4-12,@,New York Jets,7,38,6,162,125,37,6,17,388,112,276,1,nyj
+2009,1,Mon,September 14,L,,0-1,@,New England Patriots,24,25,17,276,186,90,1,28,441,368,73,1,ne
+2009,4,Sun,October 4,L,,1-3,@,Miami Dolphins,10,38,10,206,160,46,3,25,336,86,250,,mia
+2009,6,Sun,October 18,W,OT,2-4,@,New York Jets,16,13,20,296,154,142,2,15,414,96,318,6,nyj
+2009,7,Sun,October 25,W,,3-4,@,Carolina Panthers,20,9,9,167,114,53,,20,425,309,116,4,car
+2009,10,Sun,November 15,L,,3-6,@,Tennessee Titans,17,41,14,296,207,89,2,20,378,210,168,1,ten
+2009,11,Sun,November 22,L,,3-7,@,Jacksonville Jaguars,15,18,14,343,290,53,3,19,310,208,102,2,jac
+2009,14,Sun,December 13,W,,5-8,@,Kansas City Chiefs,16,10,13,273,73,200,3,16,354,202,152,4,kc
+2009,16,Sun,December 27,L,,5-10,@,Atlanta Falcons,3,31,11,178,138,40,3,24,391,234,157,,atl
+2014,1,Sun,September 7,W,,1-0,@,Chicago Bears,23,20,1,178,138,40,3,23,391,234,157,,chi
+2004,2,Sun,19-Sep,L,,0-2,@,Oakland Raiders,10,13,14,243,176,67,1,12,273,200,73,,oak
+2004,5,Sun,10-Oct,L,,0-4,@,New York Jets,14,16,17,252,172,80,1,24,383,298,85,2,nyj
+2004,7,Sun,24-Oct,L,,,@,Baltimore Ravens,6,20,15,270,185,85,5,12,160,60,100,1,bal
+2004,10,Sun,14-Nov,L,,,@,New England Patriots,6,29,8,125,75,50,5,25,428,220,208,1,ne
+2004,12,Sun,28-Nov,W,,,@,Seattle Seahawks,38,9,25,434,286,148,3,17,230,175,55,2,sea
+2004,13,Sun,5-Dec,W,,,@,Miami Dolphins,42,32,16,362,257,105,1,25,403,297,106,7,mia
+2004,15,Sun,19-Dec,W,,,@,Cincinnati Bengals,33,17,13,212,169,43,1,16,275,126,149,4,cin
+2004,16,Sun,26-Dec,W,,,@,San Francisco 49ers,41,7,27,441,215,226,1,12,189,91,98,4,sf
+2005,2,Sun,18-Sep,L,,,@,Tampa Bay Buccaneers,3,19,8,147,100,47,,18,318,127,191,,tb
+2005,4,Sun,2-Oct,L,,,@,New Orleans Saints,7,19,13,208,67,141,2,23,333,166,167,,no
+2005,7,Sun,23-Oct,L,,,@,Oakland Raiders,17,38,15,210,126,84,1,26,416,254,162,1,oak
+2005,8,Sun,30-Oct,L,,,@,New England Patriots,16,21,24,394,247,147,2,18,273,180,93,2,ne
+2005,11,Sun,20-Nov,L,,,@,San Diego Chargers,10,48,12,202,137,65,2,28,478,337,141,,sd
+2005,13,Sun,4-Dec,L,,,@,Miami Dolphins,23,24,16,294,202,92,3,26,434,361,73,2,mia
+2005,16,Sat,24-Dec,W,,,@,Cincinnati Bengals,37,27,19,355,288,67,1,23,374,270,104,2,cin
+2005,17,Sun,1-Jan,L,,,@,New York Jets,26,30,21,331,172,159,4,12,207,126,81,,nyj
+2006,1,Sun,10-Sep,L,,0-1,@,New England Patriots,17,19,12,240,141,99,,19,319,136,183,2,ne
+2006,2,Sun,17-Sep,W,,,@,Miami Dolphins,16,6,12,171,66,105,,15,282,190,92,1,mia
+2006,5,Sun,8-Oct,L,,,@,Chicago Bears,7,40,10,145,87,58,5,23,351,195,156,1,chi
+2006,6,Sun,15-Oct,L,,,@,Detroit Lions,17,20,16,242,157,85,3,21,397,262,135,1,det
+2006,10,Sun,12-Nov,L,,,@,Indianapolis Colts,16,17,10,162,51,111,,26,384,236,148,2,ind
+2006,11,Sun,19-Nov,W,,,@,Houston Texans,24,21,17,403,333,70,1,20,394,206,188,2,hou
+2006,14,Sun,10-Dec,W,,,@,New York Jets,31,13,14,318,144,174,1,16,275,143,132,3,nyj
+2006,17,Sun,31-Dec,L,,,@,Baltimore Ravens,7,19,10,253,214,39,3,18,327,216,111,1,bal
+2007,2,Sun,16-Sep,L,,0-2,@,Pittsburgh Steelers,3,26,10,223,121,102,,24,420,236,184,1,pit
+2007,3,Sun,23-Sep,L,,0-3,@,New England Patriots,7,38,12,193,83,110,2,27,485,308,177,1,ne
+2007,8,Sun,28-Oct,W,,,@,New York Jets,13,3,19,347,239,108,1,14,254,154,100,3,nyj
+2007,10,Sun,11-Nov,W,,,@,Miami Dolphins,13,10,15,214,151,63,1,15,269,126,143,,mia
+2007,12,Sun,25-Nov,L,,,@,Jacksonville Jaguars,14,36,20,297,203,94,3,21,416,292,124,1,jac
+2007,13,Sun,2-Dec,W,,,@,Washington Redskins,17,16,15,357,257,100,1,22,281,202,79,2,was
+2007,15,Sun,16-Dec,L,,,@,Cleveland Browns,0,8,11,232,124,108,,16,304,130,174,,cle
+2007,17,Sun,30-Dec,L,,,@,Philadelphia Eagles,9,17,13,271,133,138,,20,391,322,69,2,phi
+2008,2,Sun,14-Sep,W,,Feb-00,@,Jacksonville Jaguars,20,16,18,285,210,75,1,18,243,145,98,2,jac
+2008,4,Sun,28-Sep,W,,Apr-00,@,St. Louis Rams,31,14,14,277,166,111,1,16,380,213,167,2,stl
+2008,5,Sun,5-Oct,L,,1-Apr,@,Arizona Cardinals,17,41,13,287,203,84,4,28,373,250,123,,ari
+2008,8,Sun,26-Oct,L,,2-May,@,Miami Dolphins,16,25,19,339,220,119,4,19,358,306,52,1,mia
+2008,10,Sun,9-Nov,L,,4-May,@,New England Patriots,10,20,10,168,108,60,2,24,370,226,144,1,ne
+2008,12,Sun,23-Nov,W,,5-Jun,@,Kansas City Chiefs,54,31,27,444,273,171,,21,462,303,159,5,kc
+2008,15,Sun,14-Dec,L,,8-Jun,@,New York Jets,27,31,23,306,119,187,4,18,372,207,165,2,nyj
+2008,16,Sun,21-Dec,W,,8-Jul,@,Denver Broncos,30,23,20,275,188,87,,27,532,351,181,2,den

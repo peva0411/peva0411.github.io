@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill's Road Record</title>
+    <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="/Scripts/angular.min.js"></script>
+    <script type="text/javascript" src="/Scripts/underscore.min.js"></script>
+    <script type="text/javascript" src="/Scripts/d3.min.js"></script>
+    <script type="text/javascript" src="/Scripts/bootstrap.js"></script>
+    <script type="text/javascript" src="/Angular/app.js"></script>
+    <script type="text/javascript" src="/Angular/Controllers/ScheduleController.js"></script>
+    <script type="text/javascript" src="/Angular/Directives/GameDetails.js"></script>
+    <script type="text/javascript" src="/Angular/Directives/GameEnter.js"></script>
+    <script type="text/javascript" src="/Angular/Directives/MapDirective.js"></script>
+    <script type="text/javascript" src="/Angular/Directives/SeasonEnter.js"></script>
+    <script type="text/javascript" src="/Angular/Directives/status.js"></script>
+    <script type="text/javascript" src="/Angular/Services/RecordService.js"></script>
+</head>
+<body ng-app="scheduleApp">
+    <div ng-controller="scheduleController">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="title">Buffalo Bills: Road Warriors?</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2 season-col">
+            <div class="row season" ng-repeat="season in seasons"
+                 season-enter={{season.season}}
+                 ng-mouseenter="updateSelectedData(season)">
+                <h2>{{season.season}}</h2>
+                <p>Wins: {{season.wins}}</p>
+            </div>
+        </div>
+        <div class="col-md-6" >
+            <div class="row">
+                <map data="selectedGames" class="center-block" selected-game="selectedGame"></map>
+            </div>
+            <div class="row center-block">
+                <div class="col-md-12">
+                    <game-details ng-show="selectedGame" selected-game="selectedGame"></game-details>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="row" ng-repeat="game in selectedGames"
+                   ng-mouseenter="updateSelectedGame(game)" game-enter="{{game.Week}}">
+                <div class="gameDetail-small">
+                    <p>{{game.Date}}</p>
+                    <div>
+                        <img class="score-small-logo" src="/Content/logos/buff.png" />
+                        @*<p>Buffalo Bills</p>*@
+                    </div>
+                    <div class="score-small">{{game.TmScore}} - {{game.OppScore}} </div>
+                    <div>
+                        <img class="score-small-logo" ng-src="/Content/logos/{{game.ABRV}}.png" />
+                        @*<p>{{game.Opp}}</p>*@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
