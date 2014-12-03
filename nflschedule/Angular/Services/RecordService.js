@@ -8,7 +8,7 @@
             if (err) {
                 deferred.reject();
             }
-            d3.json('/nflschedule/Content/NFLCities.json', function(error, json) {
+            d3.json('/nflschedule/Content/NflCities.json', function(error, json) {
                 if (error) {
                     deferred.reject();
                 }
