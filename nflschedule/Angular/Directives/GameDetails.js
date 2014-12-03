@@ -5,7 +5,7 @@
         scope: {
             selectedGame: '='
         },
-        templateUrl:"/Angular/Views/GameDetails.html",
+        templateUrl:"/nflschedule/Angular/Views/GameDetails.html",
         link: function(scope, element) {
             var w = 500, h = 400;
             var padding = 2;

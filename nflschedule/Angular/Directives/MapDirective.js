@@ -18,7 +18,7 @@
             var svg = d3.select(element[0]).append('svg').attr("width", w).attr("height", h);
 
             //draw map
-            d3.json('/Content/us.json', function(json) {
+            d3.json('/nflschedule/Content/us.json', function(json) {
                 svg.selectAll("path")
                     .data(json.features)
                     .enter()
@@ -117,7 +117,7 @@
                                 "width":30,
                                 "height":30,
                                 "transform": "translate(" + -(30 / 2) + "," + -(30 / 2) + ")",
-                                "xlink:href": "/Content/logos/buff.png",
+                                "xlink:href": "/nflschedule/Content/logos/buff.png",
                                 "class":"buff"
                             });
 
@@ -182,7 +182,7 @@
                                 "transform": "translate(" + -(26.666666 / 2) + "," + -(20 / 2) + ")",
                                 "xlink:href": function(d) {
                                     if (d.ABRV) {
-                                        return "/Content/logos/" + d.ABRV + ".png";
+                                        return "/nflschedule/Content/logos/" + d.ABRV + ".png";
                                     }
                                 },
                                 "class":"opp"

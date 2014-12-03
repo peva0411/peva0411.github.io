@@ -4,11 +4,11 @@
 
         var deferred = $q.defer();
 
-        d3.csv('/Content/schedule2.csv', function (err, csv) {
+        d3.csv('/nflschedule/Content/schedule2.csv', function (err, csv) {
             if (err) {
                 deferred.reject();
             }
-            d3.json('/Content/NFLCities.json', function(error, json) {
+            d3.json('/nflschedule/Content/NFLCities.json', function(error, json) {
                 if (error) {
                     deferred.reject();
                 }
